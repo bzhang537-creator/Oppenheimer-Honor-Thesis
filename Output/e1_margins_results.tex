@@ -1,0 +1,27 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Exposure 1: Extensive vs Intensive Margins}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{P(publish)}&\multicolumn{1}{c}{P(stopped)}&\multicolumn{1}{c}{Count|pub>0}\\
+\hline
+treated $\times$ post42&      -0.274\sym{***}&       0.033         &       0.014         \\
+                    &     (0.092)         &     (0.032)         &     (0.655)         \\
+[1em]
+treated $\times$ post46&      -0.036         &      -0.000         &      -0.555         \\
+                    &     (0.121)         &     (0.000)         &     (0.708)         \\
+[1em]
+treated $\times$ post49&      -0.232\sym{***}&       0.055         &      -0.505         \\
+                    &     (0.085)         &     (0.038)         &     (0.507)         \\
+[1em]
+treated $\times$ post54&      -0.097         &       0.135         &       0.024         \\
+                    &     (0.105)         &     (0.120)         &     (0.506)         \\
+\hline
+Observations        &        1080         &        1080         &         401         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize Col 3 (intensive) is descriptive: conditions on post-treatment outcome.}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,26 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Exposure 1: FE-Poisson Robustness (exp(b) = rate ratios)}
+\begin{tabular}{l*{1}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}\\
+                    &\multicolumn{1}{c}{FE-Poisson}\\
+\hline
+treated $\times$ post42&       0.671         \\
+                    &     (0.415)         \\
+[1em]
+treated $\times$ post46&       0.492         \\
+                    &     (0.305)         \\
+[1em]
+treated $\times$ post49&       0.596\sym{**} \\
+                    &     (0.149)         \\
+[1em]
+treated $\times$ post54&       0.554\sym{*}  \\
+                    &     (0.178)         \\
+\hline
+Observations        &        1080         \\
+\hline\hline
+\multicolumn{2}{l}{\footnotesize Exponentiated coefficients; Standard errors in parentheses}\\
+\multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
