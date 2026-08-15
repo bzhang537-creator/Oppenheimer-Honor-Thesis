@@ -30,6 +30,20 @@ E1 is the only tier whose pre-trend rejects. The defense has three parts:
 3. **Timing.** A smooth trend cannot produce the sharp break at 1949. Identification rests on the
    timing of the breaks — the sharp kink at 1949 and the failure to recover at 1946.
 
+## FE-Poisson (count model)
+
+Publication counts are nonnegative integers, so the linear model is re-estimated as a
+fixed-effects Poisson (`ppmlhdfe`), following Azoulay, Graff Zivin & Wang (2010). This checks
+whether the pattern is an artifact of the level scale and respects the count support.
+
+![E1 FE-Poisson event study](../Output/e1_poisson_event_study.png)
+
+*E1 FE-Poisson event study (log publication rate, base 1941).* The same monotone deepening after
+1949 appears, expressed as a declining publication rate. The pre-trend persists under Poisson
+(χ²(10) = 58.09, *p* < 0.001), confirming it is a real feature rather than a linear-scale artifact —
+which is why it is defended above rather than explained away. Poisson drops the 1944–45 wartime
+years by separation (zero treated publications), so those markers are absent from the plot.
+
 ## Wild-cluster bootstrap
 
 With only 36 clusters, E1's cluster-robust SEs may be biased downward. Wild-cluster bootstrap

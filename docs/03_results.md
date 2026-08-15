@@ -33,8 +33,40 @@ Three things stand out:
 2. **Deepest break at 1949**, coinciding with the Soviet-test shock.
 3. **1954 incremental effect ≈ 0** because the series has already bottomed out by then.
 
-<!-- Replace with your exported figures -->
 ![E1 unified event study](../Output/e1_event_study.png)
+
+*E1 unified event study, base year 1941. The sharp break at 1949 and the failure to recover at
+1946 are the two identifying facts.*
+
+## The same pattern in E2 and E3
+
+The two outer tiers show the same shape — flat pre-1942, a drop at 1949 — but shallower, and with
+visibly cleaner pre-trends (the larger groups average out the late-1930s noise that drives the E1
+pre-trend).
+
+![E2 unified event study](../Output/fig_e2_eventstudy.png)
+
+*E2 (co-authors of co-authors). Clean pre-period; 1949 trough at −1.39, partial recovery by 1954.*
+
+![E3 unified event study](../Output/fig_e3_eventstudy.png)
+
+*E3 (IAS physicists). Grey lines mark the 1942/1946 shocks that are a placebo for E3 (no effect);
+red lines mark 1949/1954, the shocks that actually reach this tier; the blue dotted line is 1947
+IAS exposure onset.*
+
+## Extensive margin: exit from publishing
+
+Beyond publishing *less*, do exposed physicists stop publishing *entirely*? Re-estimating the E1
+event study with an absorbing "permanently stopped" indicator as the outcome shows the probability
+of exit is flat before the shocks and rises only after 1954.
+
+![E1 stop-publishing event study](../Output/e1_stopped_event_study.png)
+
+*E1 stop-publishing event study: effect on P(permanently stopped), base 1941.* The rise is
+concentrated in the post-1954 years and is **suggestive but underpowered** — the cumulative
+absorbing-exit effect is +0.223 (*p* = 0.106), not conventionally significant given the small treated
+group. It is reported as complementary, directional evidence that some suppression operates through
+outright exit, not as a primary result.
 
 ## Identification: E2 and E3 are clean; only E1 needs a defense
 
