@@ -2,7 +2,7 @@
 ### Evidence from the Oppenheimer Affair
 
 **Yiqing Zhang** · Economics Honors Thesis, University of Wisconsin–Madison
-Advisor: Prof. Christopher Taber (James J. Heckman Professor of Economics)
+Advisor: Prof. Christopher Taber
 Status: In progress — full thesis due May 2027 · *last updated August 2026*
 
 ---
