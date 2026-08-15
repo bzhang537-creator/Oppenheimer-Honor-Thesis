@@ -1,9 +1,9 @@
 # Political Shocks and Scientific Network Productivity
 ### Evidence from the Oppenheimer Affair
 
-**Yiqing Zhang** · Economics Honors Thesis, University of Wisconsin–Madison
-Advisor: Prof. Christopher Taber
-Status: In progress — full thesis due May 2027 · *last updated August 2026*
+**Yiqing Zhang** · Economics Honors Thesis, University of Wisconsin–Madison <br>
+Advisor: Prof. Christopher Taber <br>
+Status: In progress — full thesis due May 2027 · *last updated August 2026* <br>
 
 ---
 
