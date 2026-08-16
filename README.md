@@ -11,15 +11,15 @@ This repository contains the data, code, and analysis for my undergraduate econo
 honors thesis. This page is a summary; each section links to a detailed write-up for
 readers who want the full treatment.
 
-> **Repository branches.** This `main` branch is the presentable overview. Active
-> development lives on
+> **Repository branches.** This `main` branch is the presentable overview. <br>
+> Active development lives on
 > [`v3-unified-event-study`](https://github.com/bzhang537-creator/Oppenheimer-Honor-Thesis/tree/v3-unified-event-study)
-> (unified event study, Dispatch/PROLA data) — the version described throughout these
-> pages. Two earlier branches are retained only as history and are no longer maintained:
+> (unified event study, Dispatch/PROLA data) — the version described throughout these pages. <br>
+> Two earlier branches are retained only as history and are no longer maintained:<br>
 > [`v1-crossref`](https://github.com/bzhang537-creator/Oppenheimer-Honor-Thesis/tree/v1-crossref)
 > (early Crossref data) and
 > [`v2-prola`](https://github.com/bzhang537-creator/Oppenheimer-Honor-Thesis/tree/v2-prola)
-> (PROLA data, separate difference-in-differences design).
+> (PROLA data, separate difference-in-differences design).<br>
 
 ## The Question
 
