@@ -74,6 +74,4 @@ The Manhattan benchmark's underlying physicist-level publication data is documen
 
 ## Status & Scope
 
-This is an undergraduate honors thesis in progress (ECON 681/682), not a field paper. The
-full thesis is expected May 2027. The current open methodological question concerns the control
-group — see [docs/07_open_questions.md](docs/07_open_questions.md).
+This is an undergraduate honors thesis in progress (ECON 681/682)。 The full thesis is expected May 2027. The current open methodological question concerns the control group — see [docs/07_open_questions.md](docs/07_open_questions.md).
