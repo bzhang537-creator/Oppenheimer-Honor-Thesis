@@ -1,0 +1,31 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{E3 unified event study: incremental and level effects}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{Primary}&\multicolumn{1}{c}{Placebo}&\multicolumn{1}{c}{Treated trend}\\
+\midrule
+post49T             &      -1.079\sym{***}&      -0.688\sym{***}&      -0.735\sym{**} \\
+                    &     (0.355)         &     (0.252)         &     (0.302)         \\
+\addlinespace
+post54T             &       0.646\sym{*}  &       0.646\sym{*}  &       0.825\sym{**} \\
+                    &     (0.332)         &     (0.332)         &     (0.359)         \\
+\addlinespace
+post42T             &                     &       0.040         &                     \\
+                    &                     &     (0.125)         &                     \\
+\addlinespace
+post46T             &                     &      -0.500\sym{*}  &                     \\
+                    &                     &     (0.293)         &                     \\
+\addlinespace
+tr\_trend            &                     &                     &      -0.030\sym{**} \\
+                    &                     &                     &     (0.013)         \\
+\midrule
+Observations        &        3270         &        3270         &        3270         \\
+Level 1949-53       &      -1.079         &                     &                     \\
+Level 1954-60       &      -0.434         &                     &                     \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,33 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{E2 unified event study: incremental and level effects}
+\begin{tabular}{l*{2}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+                    &\multicolumn{1}{c}{Cumulative}&\multicolumn{1}{c}{Treated trend}\\
+\midrule
+post42T             &      -0.043         &      -0.007         \\
+                    &     (0.133)         &     (0.202)         \\
+\addlinespace
+post46T             &      -0.405         &      -0.388         \\
+                    &     (0.280)         &     (0.314)         \\
+\addlinespace
+post49T             &      -0.937\sym{***}&      -0.918\sym{***}\\
+                    &     (0.240)         &     (0.249)         \\
+\addlinespace
+post54T             &       0.616\sym{*}  &       0.645\sym{**} \\
+                    &     (0.312)         &     (0.312)         \\
+\addlinespace
+tr\_trend            &                     &      -0.005         \\
+                    &                     &     (0.022)         \\
+\midrule
+Observations        &        3840         &        3840         \\
+Level 1942-45       &      -0.043         &                     \\
+Level 1946-48       &      -0.448         &                     \\
+Level 1949-53       &      -1.385         &                     \\
+Level 1954-60       &      -0.769         &                     \\
+\bottomrule
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
