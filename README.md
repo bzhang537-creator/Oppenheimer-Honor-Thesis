@@ -1,13 +1,3 @@
-# Political Shocks and Scientific Network Productivity — `v3-unified-event-study` (active)
-
-**Evidence from the Oppenheimer Affair**
-
-Yiqing Zhang · Economics Honors Thesis, University of Wisconsin–Madison <br>
-Advisor: Prof. Christopher Taber (James J. Heckman Professor of Economics) <br>
-Status: active development branch · full thesis due May 2027 · *last updated August 2026*
-
----
-
 This is the **live working branch** — the current data, code, and results. It is more detailed and
 more provisional than the [`main`](../../tree/main) overview, which is the polished summary. Readers
 who want the run-ready code and the full state of the analysis are in the right place; readers who
